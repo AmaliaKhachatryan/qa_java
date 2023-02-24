@@ -51,8 +51,8 @@ public class AnimalTest {
         String expected = "Существует несколько семейств: заячьи, беличьи, мышиные, кошачьи, псовые, медвежьи, куньи";
         assertEquals(expected, actual);
     }
-@Spy
-Animal animal;
+    @Spy
+    Animal animal;
 
     @Test
     public void getGrassFoodSpyTest() throws Exception {
